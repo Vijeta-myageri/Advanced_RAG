@@ -1,6 +1,6 @@
 import streamlit as st
-st.title("my first streamlit app")
-name=st.txt_input("enter your name")
+st.title("My first streamlit app")
+name=st.text_input("Enter your name")
 
-if st.buttons("submit"):
-  st.write("hello,{name}")
+if st.button("Submit"):
+  st.write("Hello,{name}")
